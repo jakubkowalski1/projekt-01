@@ -1,0 +1,82 @@
+body {
+    background-color: grey;
+  }
+  
+  h1 {
+    background-color: #480000;
+    color: white;
+  }
+  
+  .div1 {
+    background-color: #880000;
+    padding: 25px;
+  }
+  
+  .mlink {
+    background-color: #c00000;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  .mlink:hover {
+    background-color: #d0d0d0;
+    color: black;
+    border: 5px solid black;
+    padding: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 80%;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border: 3px solid black;
+    width: 100%;
+    border-style: outset;
+    border-collapse: collapse;
+  }
+  
+  th {
+    border: 3px solid black;
+    text-align: left;
+    padding: 5px;
+  }
+  
+  .tr1:hover {
+    background-color: pink;
+    cursor: pointer;
+    transition: 3s;
+  }
+  
+  table,
+  tr,
+  td:hover {
+    color: white;
+    background-color: orange;
+  }
+  
+  .tr2:hover {
+    background-color: lightpink;
+    cursor: pointer;
+    transition: 2s;
+  }
+  .tr3:hover {
+    background-color: hotpink;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .tr4:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+    transition: 4s;
+  }
+  
+  th,
+  td,
+  table {
+    border: 3px solid black;
+  }
+  
